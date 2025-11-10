@@ -1,6 +1,6 @@
 {
   "name": "@noraeb/addons",
-  "version": "0.34.0",
+  "version": "0.34.1",
   "repository": "https://github.com/com-pas/open-scd.git",
   "directory": "packages/addons",
   "description": "Official Addons for OpenSCD",
@@ -22,8 +22,8 @@
     "access": "public"
   },
   "dependencies": {
-    "lit": "^2.2.7",
-    "@noraeb/core": "*"
+    "@noraeb/core": "^0.1.5",
+    "lit": "^2.2.7"
   },
   "//": {
     "clean": "rimraf build",

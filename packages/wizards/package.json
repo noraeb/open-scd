@@ -1,6 +1,6 @@
 {
   "name": "@noraeb/wizards",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "https://github.com/com-pas/open-scd.git",
   "directory": "packages/wizards",
   "description": "Official Wizards for OpenSCD",
@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@material/mwc-dialog": "0.22.1",
-    "@noraeb/core": "*"
+    "@noraeb/core": "^0.1.5"
   },
   "//": {
     "clean": "rimraf build",

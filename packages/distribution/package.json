@@ -1,6 +1,6 @@
 {
   "name": "@noraeb/distribution",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "https://github.com/com-pas/open-scd.git",
   "directory": "packages/distribution",
   "description": "Official OpenSCD Distribution",
@@ -20,9 +20,9 @@
     "./dist/**"
   ],
   "dependencies": {
-    "@noraeb/addons": "*",
-    "@noraeb/open-scd": "*",
-    "@noraeb/plugins": "*"
+    "@noraeb/addons": "^0.34.1",
+    "@noraeb/open-scd": "^0.34.1",
+    "@noraeb/plugins": "^0.0.2"
   },
   "scripts": {
     "clean": "rimraf build",
