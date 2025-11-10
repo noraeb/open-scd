@@ -1,7 +1,7 @@
 {
-  "name": "@openscd/open-scd",
+  "name": "@noraeb/open-scd",
   "version": "0.34.0",
-  "repository": "https://github.com/openscd/open-scd.git",
+  "repository": "https://github.com/com-pas/open-scd.git",
   "directory": "packages/openscd",
   "description": "A bottom-up substation configuration designer for projects described using SCL `IEC 61850-6` Edition 2 or greater.",
   "keywords": [
@@ -20,6 +20,9 @@
   "files": [
     "./build/**"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@material/mwc-dialog": "0.22.1",
     "@material/mwc-drawer": "0.22.1",
@@ -40,8 +43,8 @@
     "@material/mwc-textfield": "0.22.1",
     "@material/mwc-top-app-bar-fixed": "0.22.1",
     "@openscd/oscd-api": "^0.1.5",
-    "@openscd/core": "*",
-    "@openscd/xml": "*",
+    "@noraeb/core": "*",
+    "@noraeb/xml": "*",
     "ace-custom-element": "^1.6.5",
     "lit": "^2.2.7",
     "lit-translate": "^1.2.1",

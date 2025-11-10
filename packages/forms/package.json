@@ -1,5 +1,5 @@
 {
-  "name": "@openscd/forms",
+  "name": "@noraeb/forms",
   "version": "0.0.1",
   "description": "The forms package OpenSCD",
   "author": "Open-SCD",
@@ -12,6 +12,9 @@
   "files": [
     "./dist/**"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": "./dist/index.js"
   },

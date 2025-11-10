@@ -1,5 +1,5 @@
 {
-  "name": "@openscd/core",
+  "name": "@noraeb/core",
   "version": "0.1.4",
   "description": "The core editor component of open-scd, without any extensions pre-installed.",
   "author": "Open-SCD",
@@ -11,6 +11,9 @@
   "files": [
     "./dist/**"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": "./dist/foundation.js",
     "./foundation/scl.js": "./dist/foundation/scl.js",
