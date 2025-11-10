@@ -1,7 +1,7 @@
 {
   "name": "@noraeb/wizards",
   "version": "0.0.2",
-  "repository": "https://github.com/com-pas/open-scd.git",
+  "repository": "https://github.com/noraeb/open-scd.git",
   "directory": "packages/wizards",
   "description": "Official Wizards for OpenSCD",
   "keywords": [

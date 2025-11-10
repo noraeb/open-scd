@@ -1,7 +1,7 @@
 {
   "name": "@noraeb/addons",
   "version": "0.34.1",
-  "repository": "https://github.com/com-pas/open-scd.git",
+  "repository": "https://github.com/noraeb/open-scd.git",
   "directory": "packages/addons",
   "description": "Official Addons for OpenSCD",
   "keywords": [
