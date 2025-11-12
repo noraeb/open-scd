@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.36.2](https://github.com/noraeb/open-scd/compare/v0.36.1...v0.36.2) (2025-11-12)
+
+
+### Bug Fixes
+
+* update package imports to [@noraeb](https://github.com/noraeb) ([f8df9fb](https://github.com/noraeb/open-scd/commit/f8df9fb4e739953304d7d2994649cd94e5ba9cfd))
+
 ## [0.36.1](https://github.com/noraeb/open-scd/compare/v0.36.0...v0.36.1) (2025-11-12)
 
 
