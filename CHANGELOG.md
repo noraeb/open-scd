@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.36.1](https://github.com/noraeb/open-scd/compare/v0.36.0...v0.36.1) (2025-11-12)
+
+
+### Bug Fixes
+
+* publish addons ([968722e](https://github.com/noraeb/open-scd/commit/968722e2fd76b5b953702fd8a3fbf11e7168185a))
+
 ## [0.36.0](https://github.com/noraeb/open-scd/compare/v0.36.0...v0.36.0) (2025-11-12)
 
 
