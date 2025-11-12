@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.36.1](https://github.com/noraeb/open-scd/compare/v0.36.0...v0.36.1) (2025-11-12)
+
+
+### Bug Fixes
+
+* trigger release ([c3beb1e](https://github.com/noraeb/open-scd/commit/c3beb1e22ea73894f6ca58b53d6c8420fa9a79b8))
+
 ## [0.36.0](https://github.com/noraeb/open-scd/compare/v0.33.0...v0.36.0) (2025-11-12)
 
 
