@@ -32,12 +32,20 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
       - run: npm run build
         if: ${{ steps.release.outputs.release_created }}
-      - run: cd packages/core && npm publish --access public
+      - name: Publish @noraeb/core to npm
+        run: cd packages/core && npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
         if: ${{ steps.release.outputs.release_created }}
         continue-on-error: true
-      - run: cd packages/addons && npm publish --access public
+      - name: Publish @noraeb/addons to npm
+        run: cd packages/addons && npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+        if: ${{ steps.release.outputs.release_created }}
+        continue-on-error: true
+      - name: Publish @noraeb/forms to npm
+        run: cd packages/forms && npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
         if: ${{ steps.release.outputs.release_created }}
