@@ -22,7 +22,9 @@
       "@openscd/open-scd": ["../openscd/src/open-scd.ts"],
       "@openscd/open-scd/*": ["../openscd/*"],
       "@openscd/wizards": ["../wizards/src"],
-      "@openscd/wizards/*": ["../wizards/*"]
+      "@openscd/wizards/*": ["../wizards/*"],
+      "@openscd/xml": ["../xml/src"],
+      "@openscd/xml/*": ["../xml/*"]
     }
   },
   "include": ["src/**/*.ts"]

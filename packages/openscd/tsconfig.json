@@ -18,7 +18,9 @@
     "resolveJsonModule": true,
     "paths": {
       "@openscd/core": ["../core/foundation.ts"],
-      "@openscd/core/*": ["../core/*"]
+      "@openscd/core/*": ["../core/*"],
+      "@openscd/xml": ["../xml/src"],
+      "@openscd/xml/*": ["../xml/*"]
     }
   },
   "include": ["./src/**/*.ts"]

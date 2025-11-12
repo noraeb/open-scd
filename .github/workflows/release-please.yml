@@ -16,9 +16,7 @@ jobs:
         id: release
         with:
           release-type: node
-          command: manifest
           token: ${{ secrets.GITHUB_TOKEN }}
-      # The logic below handles the npm publication:
       - uses: actions/checkout@v4
         with:
           submodules: "true"
@@ -32,31 +30,38 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
       - run: npm run build
         if: ${{ steps.release.outputs.release_created }}
-      - name: Publish @noraeb/core to npm
+        
+      - name: Publish core to npm
         run: cd packages/core && npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
         if: ${{ steps.release.outputs.release_created }}
         continue-on-error: true
-      - name: Publish @noraeb/addons to npm
+      - name: Publish addons to npm
         run: cd packages/addons && npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
         if: ${{ steps.release.outputs.release_created }}
         continue-on-error: true
-      - name: Publish @noraeb/forms to npm
+      - name: Publish forms to npm
         run: cd packages/forms && npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
         if: ${{ steps.release.outputs.release_created }}
         continue-on-error: true
-      - name: Publish @noraeb/wizards to npm
+      - name: Publish wizards to npm
         run: cd packages/wizards && npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
         if: ${{ steps.release.outputs.release_created }}
         continue-on-error: true
-      - name: Publish @noraeb/open-scd to npm
+      - name: Publish xml to npm
+        run: cd packages/xml && npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+        if: ${{ steps.release.outputs.release_created }}
+        continue-on-error: true
+      - name: Publish open-scd to npm
         run: cd packages/openscd && npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}

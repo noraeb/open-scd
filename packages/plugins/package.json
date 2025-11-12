@@ -33,7 +33,7 @@
     "@openscd/core": "npm:@noraeb/core@*",
     "@openscd/open-scd": "npm:@noraeb/open-scd@*",
     "@openscd/wizards": "npm:@noraeb/wizards@*",
-    "@openscd/xml": "*",
+    "@openscd/xml": "npm:@noraeb/xml@*",
     "lit": "^2.2.7",
     "lit-translate": "^1.2.1",
     "marked": "^4.0.10",
