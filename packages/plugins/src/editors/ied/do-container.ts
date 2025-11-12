@@ -11,14 +11,14 @@ import { get } from 'lit-translate';
 import '@material/mwc-icon-button-toggle';
 import { IconButtonToggle } from '@material/mwc-icon-button-toggle';
 
-import '@openscd/open-scd/src/action-pane.js';
+import '@noraeb/open-scd/src/action-pane.js';
 import './da-container.js';
 
 import {
   getDescriptionAttribute,
   getNameAttribute,
   newWizardEvent,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 import { createDoInfoWizard } from './do-wizard.js';
 import {
   Container,

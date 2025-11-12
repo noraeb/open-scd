@@ -24,13 +24,13 @@ import { Checkbox } from '@material/mwc-checkbox';
 import { List, MWCListIndex } from '@material/mwc-list';
 import { ListItem } from '@material/mwc-list/mwc-list-item.js';
 
-import '@openscd/open-scd/src/filtered-list.js';
+import '@noraeb/open-scd/src/filtered-list.js';
 
 import {
   identity,
   isPublic,
   newSubWizardEvent,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 import { newActionEvent } from '@noraeb/core/foundation/deprecated/editor.js';
 import { newLogEvent } from '@noraeb/core/foundation/deprecated/history.js';
 
@@ -39,7 +39,7 @@ import {
   dataTypeTemplateIcons,
   getFilterIcon,
   iconType,
-} from '@openscd/open-scd/src/icons/icons.js';
+} from '@noraeb/open-scd/src/icons/icons.js';
 
 import { lNodeTypeWizard } from '../templates/lnodetype-wizard.js';
 import { editDaTypeWizard } from '../templates/datype-wizards.js';

@@ -13,7 +13,7 @@ import './connectedap-editor.js';
 import {
   compareNames,
   newWizardEvent,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 import { get } from 'lit-translate';
 import { createConnectedApWizard } from './wizards/connectedap.js';
 import { Base104Container } from './base-container.js';

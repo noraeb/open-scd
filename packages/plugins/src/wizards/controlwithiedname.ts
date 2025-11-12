@@ -6,7 +6,7 @@ import '@material/mwc-list';
 import '@material/mwc-list/mwc-check-list-item';
 import { List } from '@material/mwc-list';
 
-import '@openscd/open-scd/src/filtered-list.js';
+import '@noraeb/open-scd/src/filtered-list.js';
 import {
   findControlBlocks,
   identity,
@@ -14,12 +14,12 @@ import {
   WizardAction,
   WizardActor,
   WizardInputElement,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 
 import { createElement } from '@noraeb/xml';
 
 import { EditorAction } from '@noraeb/core/foundation/deprecated/editor.js';
-import { inputIcon } from '@openscd/open-scd/src/icons/icons.js';
+import { inputIcon } from '@noraeb/open-scd/src/icons/icons.js';
 import {
   getSourceReferences,
   openCommunicationMappingWizard,

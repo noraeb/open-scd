@@ -15,14 +15,14 @@ import { IconButtonToggle } from '@material/mwc-icon-button-toggle';
 
 import { newEditEventV2 } from '@noraeb/core';
 import { createElement } from '@noraeb/xml';
-import { logicalDeviceIcon } from '@openscd/open-scd/src/icons/ied-icons.js';
+import { logicalDeviceIcon } from '@noraeb/open-scd/src/icons/ied-icons.js';
 import {
   getDescriptionAttribute,
   getInstanceAttribute,
   getNameAttribute,
   getLdNameAttribute,
   newWizardEvent,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 import { newActionEvent } from '@noraeb/core/foundation/deprecated/editor.js';
 
 import { wizards } from '../../wizards/wizard-library.js';
@@ -30,7 +30,7 @@ import { Container } from './foundation.js';
 import { lnInstGenerator } from '@openenergytools/scl-lib/dist/generator/lnInstGenerator.js';
 import { AddLnDialog, LNData } from './add-ln-dialog.js';
 
-import '@openscd/open-scd/src/action-pane.js';
+import '@noraeb/open-scd/src/action-pane.js';
 import './ln-container.js';
 import './add-ln-dialog.js';
 

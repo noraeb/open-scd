@@ -5,19 +5,19 @@ import '@material/mwc-list';
 import '@material/mwc-list/mwc-radio-list-item';
 import { ListItemBase } from '@material/mwc-list/mwc-list-item-base';
 
-import '@openscd/open-scd/src/wizard-textfield.js';
+import '@noraeb/open-scd/src/wizard-textfield.js';
 import {
   newWizardEvent,
   Wizard,
   WizardInputElement,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 import { newOpenDocEvent } from '@noraeb/core/foundation/deprecated/open-event.js';
 import { EditorAction } from '@noraeb/core/foundation/deprecated/editor.js';
 import { newLogEvent } from '@noraeb/core/foundation/deprecated/history.js';
 import {
   newEmptySCD,
   SupportedVersion,
-} from '@openscd/open-scd/src/schemas.js';
+} from '@noraeb/open-scd/src/schemas.js';
 
 export default class NewProjectPlugin extends LitElement {
 

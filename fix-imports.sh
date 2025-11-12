@@ -8,11 +8,15 @@ find packages -type f -name "*.ts" -not -path "*/node_modules/*" -exec sed -i ''
 echo "🔄 Replacing @openscd/xml with @noraeb/xml..."
 find packages -type f -name "*.ts" -not -path "*/node_modules/*" -exec sed -i '' 's/@openscd\/xml/@noraeb\/xml/g' {} +
 
+echo "🔄 Replacing @openscd/open-scd with @noraeb/open-scd..."
+find packages -type f -name "*.ts" -not -path "*/node_modules/*" -exec sed -i '' 's/@openscd\/open-scd/@noraeb\/open-scd/g' {} +
+
 echo "✅ Import replacements complete!"
 echo ""
 echo "📊 Summary of changes:"
 echo "   - All @openscd/core → @noraeb/core"
 echo "   - All @openscd/xml → @noraeb/xml"
+echo "   - All @openscd/open-scd → @noraeb/open-scd"
 echo ""
 echo "💡 Next steps:"
 echo "   1. Review the changes: git diff"

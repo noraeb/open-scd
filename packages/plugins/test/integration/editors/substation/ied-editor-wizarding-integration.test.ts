@@ -1,7 +1,7 @@
 import { expect, fixture, html } from '@open-wc/testing';
 
-import '@openscd/open-scd/test/mock-wizard-editor.js';
-import { MockWizardEditor } from '@openscd/open-scd/test/mock-wizard-editor.js';
+import '@noraeb/open-scd/test/mock-wizard-editor.js';
+import { MockWizardEditor } from '@noraeb/open-scd/test/mock-wizard-editor.js';
 
 import '../../../../src/editors/substation/ied-editor.js';
 import { IedEditor } from '../../../../src/editors/substation/ied-editor.js';

@@ -6,14 +6,14 @@ import '@material/mwc-formfield';
 
 import { createElement } from '@noraeb/xml';
 
-import '@openscd/open-scd/src/wizard-textfield.js';
+import '@noraeb/open-scd/src/wizard-textfield.js';
 import {
   getValue,
   Wizard,
   WizardAction,
   WizardActor,
   WizardInputElement,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 import { guessVoltageLevel } from '../editors/substation/guess-wizard.js';
 import { updateNamingAttributeWithReferencesAction } from './foundation/actions.js';
 

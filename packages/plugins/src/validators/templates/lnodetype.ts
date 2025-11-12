@@ -1,11 +1,11 @@
 import { get } from 'lit-translate';
-import { identity } from '@openscd/open-scd/src/foundation.js';
+import { identity } from '@noraeb/open-scd/src/foundation.js';
 import { LogDetailBase } from '@noraeb/core/foundation/deprecated/history.js';
 import {
   getAdjacentClass,
   validateChildren,
 } from './foundation.js';
-import { iec6185074 } from '@openscd/open-scd/src/foundation/nsd.js';
+import { iec6185074 } from '@noraeb/open-scd/src/foundation/nsd.js';
 
 async function getMandatoryDataObject(base: string): Promise<Element[]> {
   const lnodeclasses = getAdjacentClass(await iec6185074, base);

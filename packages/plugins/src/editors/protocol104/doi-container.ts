@@ -17,9 +17,9 @@ import '@material/mwc-icon-button-toggle';
 import '@material/mwc-list';
 import '@material/mwc-list/mwc-list-item';
 
-import { newWizardEvent } from '@openscd/open-scd/src/foundation.js';
+import { newWizardEvent } from '@noraeb/open-scd/src/foundation.js';
 
-import '@openscd/open-scd/src/action-pane.js';
+import '@noraeb/open-scd/src/action-pane.js';
 
 import {
   get104DetailsLine,

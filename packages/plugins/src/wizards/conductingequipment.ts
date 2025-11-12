@@ -4,7 +4,7 @@ import { get } from 'lit-translate';
 import '@material/mwc-list/mwc-list-item';
 import '@material/mwc-select';
 
-import '@openscd/open-scd/src/wizard-textfield.js';
+import '@noraeb/open-scd/src/wizard-textfield.js';
 import {
   crossProduct,
   getValue,
@@ -12,7 +12,7 @@ import {
   Wizard,
   WizardActor,
   WizardInputElement,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 
 import {
   createElement,

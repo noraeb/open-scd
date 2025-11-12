@@ -23,13 +23,13 @@ import './function-editor.js';
 import './general-equipment-editor.js';
 import './l-node-editor.js';
 
-import { lineIcon } from '@openscd/open-scd/src/icons/icons.js';
+import { lineIcon } from '@noraeb/open-scd/src/icons/icons.js';
 import { styles } from './foundation.js';
 import {
   newWizardEvent,
   SCLTag,
   tags,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 
 import {
   getChildElementsByTagName,

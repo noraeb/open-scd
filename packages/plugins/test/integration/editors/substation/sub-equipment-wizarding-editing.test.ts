@@ -1,12 +1,12 @@
 import { fixture, html, expect } from '@open-wc/testing';
 
-import '@openscd/open-scd/test/mock-wizard-editor.js';
-import { MockWizardEditor } from '@openscd/open-scd/test/mock-wizard-editor.js';
+import '@noraeb/open-scd/test/mock-wizard-editor.js';
+import { MockWizardEditor } from '@noraeb/open-scd/test/mock-wizard-editor.js';
 
 import '../../../../src/editors/substation/sub-equipment-editor.js';
-import { WizardTextField } from '@openscd/open-scd/src/wizard-textfield.js';
+import { WizardTextField } from '@noraeb/open-scd/src/wizard-textfield.js';
 import { SubEquipmentEditor } from '../../../../src/editors/substation/sub-equipment-editor.js';
-import { WizardCheckbox } from '@openscd/open-scd/src/wizard-checkbox.js';
+import { WizardCheckbox } from '@noraeb/open-scd/src/wizard-checkbox.js';
 import { ListItemBase } from '@material/mwc-list/mwc-list-item-base';
 import { MenuBase } from '@material/mwc-menu/mwc-menu-base.js';
 

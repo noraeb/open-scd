@@ -12,14 +12,14 @@ import { classMap } from 'lit-html/directives/class-map';
 import '@material/mwc-icon';
 import '@material/mwc-list/mwc-list-item';
 
-import '@openscd/open-scd/src/filtered-list.js';
+import '@noraeb/open-scd/src/filtered-list.js';
 import {
   getNameAttribute,
   identity,
   newWizardEvent,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 import { newGOOSESelectEvent } from './foundation.js';
-import { gooseIcon } from '@openscd/open-scd/src/icons/icons.js';
+import { gooseIcon } from '@noraeb/open-scd/src/icons/icons.js';
 import { wizards } from '../../../wizards/wizard-library.js';
 import { getOrderedIeds, styles } from '../foundation.js';
 

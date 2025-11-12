@@ -1,11 +1,11 @@
 import { expect, fixture, html } from '@open-wc/testing';
-import '@openscd/open-scd/src/addons/Wizards.js';
-import { OscdWizards } from '@openscd/open-scd/src/addons/Wizards';
+import '@noraeb/open-scd/src/addons/Wizards.js';
+import { OscdWizards } from '@noraeb/open-scd/src/addons/Wizards';
 
 import { editLN0Wizard } from '../../../src/wizards/ln0.js';
-import { WizardInputElement } from '@openscd/open-scd/src/foundation.js';
+import { WizardInputElement } from '@noraeb/open-scd/src/foundation.js';
 import { fetchDoc } from './test-support.js';
-import { WizardTextField } from '@openscd/open-scd/src/wizard-textfield.js';
+import { WizardTextField } from '@noraeb/open-scd/src/wizard-textfield.js';
 
 describe('ln0 wizards', () => {
   let doc: XMLDocument;

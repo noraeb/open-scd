@@ -3,14 +3,14 @@ import { get } from 'lit-translate';
 
 import { Checkbox } from '@material/mwc-checkbox';
 
-import '@openscd/open-scd/src/wizard-textfield.js';
+import '@noraeb/open-scd/src/wizard-textfield.js';
 import {
   getValue,
   identity,
   Wizard,
   WizardActor,
   WizardInputElement,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 
 import { createElement } from '@noraeb/xml';
 

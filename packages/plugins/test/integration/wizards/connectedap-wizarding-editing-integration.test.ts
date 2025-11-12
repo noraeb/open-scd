@@ -1,10 +1,10 @@
 import { expect, fixture, html } from '@open-wc/testing';
 
-import '@openscd/open-scd/test/mock-wizard-editor.js';
-import { MockWizardEditor } from '@openscd/open-scd/test/mock-wizard-editor.js';
+import '@noraeb/open-scd/test/mock-wizard-editor.js';
+import { MockWizardEditor } from '@noraeb/open-scd/test/mock-wizard-editor.js';
 
 import { editConnectedApWizard } from '../../../src/wizards/connectedap.js';
-import { newWizardEvent } from '@openscd/open-scd/src/foundation.js';
+import { newWizardEvent } from '@noraeb/open-scd/src/foundation.js';
 
 describe('connectedap wizarding editing integration', () => {
   let doc: XMLDocument;

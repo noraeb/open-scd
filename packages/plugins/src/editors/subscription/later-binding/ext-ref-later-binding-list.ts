@@ -13,7 +13,7 @@ import { get } from 'lit-translate';
 import {
   getDescriptionAttribute,
   identity,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 
 import {
   cloneElement,

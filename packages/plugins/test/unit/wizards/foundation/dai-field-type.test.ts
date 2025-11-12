@@ -1,9 +1,9 @@
 import { expect, fixture, html } from '@open-wc/testing';
 
-import '@openscd/open-scd/src/addons/Wizards.js';
-import { OscdWizards } from '@openscd/open-scd/src/addons/Wizards.js';
+import '@noraeb/open-scd/src/addons/Wizards.js';
+import { OscdWizards } from '@noraeb/open-scd/src/addons/Wizards.js';
 
-import { Wizard, WizardInputElement } from '@openscd/open-scd/src/foundation.js';
+import { Wizard, WizardInputElement } from '@noraeb/open-scd/src/foundation.js';
 
 import {
   CustomField,

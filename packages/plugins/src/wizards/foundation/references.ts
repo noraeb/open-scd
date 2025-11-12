@@ -1,7 +1,7 @@
 import {
   getNameAttribute,
   isPublic,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 import { Delete, Replace } from '@noraeb/core/foundation/deprecated/editor';
 const referenceInfoTags = [
   'IED',

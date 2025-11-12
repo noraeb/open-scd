@@ -13,7 +13,7 @@ import { nothing } from 'lit-html';
 import '@material/mwc-list/mwc-check-list-item';
 import '@material/mwc-list/mwc-radio-list-item';
 import '@material/mwc-button';
-import '@openscd/open-scd/src/oscd-filter-button.js';
+import '@noraeb/open-scd/src/oscd-filter-button.js';
 
 import './ied/ied-container.js';
 import './ied/element-path.js';
@@ -28,10 +28,10 @@ import {
   compareNames,
   getDescriptionAttribute,
   getNameAttribute,
-} from '@openscd/open-scd/src/foundation.js';
-import { SelectedItemsChangedEvent } from '@openscd/open-scd/src/oscd-filter-button.js';
-import { Nsdoc } from '@openscd/open-scd/src/foundation/nsdoc.js';
-import { getIcon } from '@openscd/open-scd/src/icons/icons.js';
+} from '@noraeb/open-scd/src/foundation.js';
+import { SelectedItemsChangedEvent } from '@noraeb/open-scd/src/oscd-filter-button.js';
+import { Nsdoc } from '@noraeb/open-scd/src/foundation/nsdoc.js';
+import { getIcon } from '@noraeb/open-scd/src/icons/icons.js';
 import { OscdApi, newEditEventV2, InsertV2 } from '@noraeb/core';
 import { CreateIedDialog } from './ied/create-ied-dialog.js';
 

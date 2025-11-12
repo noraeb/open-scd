@@ -3,7 +3,7 @@ import { classMap } from 'lit-html/directives/class-map.js';
 
 import './function-editor.js';
 
-import { identity, isPublic } from '@openscd/open-scd/src/foundation.js';
+import { identity, isPublic } from '@noraeb/open-scd/src/foundation.js';
 
 import { getChildElementsByTagName } from '@noraeb/xml';
 
@@ -15,11 +15,11 @@ import {
   voltageTransformerIcon,
   earthSwitchIcon,
   generalConductingEquipmentIcon,
-} from '@openscd/open-scd/src/icons/icons.js';
+} from '@noraeb/open-scd/src/icons/icons.js';
 import { typeStr } from '../../wizards/conductingequipment.js';
 import { Select } from '@material/mwc-select';
 
-import { WizardTextField } from '@openscd/open-scd/src/wizard-textfield.js';
+import { WizardTextField } from '@noraeb/open-scd/src/wizard-textfield.js';
 import { get } from 'lit-translate';
 
 import { BayEditor } from './bay-editor.js';

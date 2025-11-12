@@ -3,15 +3,15 @@ import { get } from 'lit-translate';
 
 import '@material/mwc-list/mwc-list-item';
 
-import '@openscd/open-scd/src/wizard-checkbox.js';
-import '@openscd/open-scd/src/wizard-select.js';
+import '@noraeb/open-scd/src/wizard-checkbox.js';
+import '@noraeb/open-scd/src/wizard-select.js';
 import {
   getValue,
   Wizard,
   WizardAction,
   WizardActor,
   WizardInputElement,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 
 import {
   cloneElement,

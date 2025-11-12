@@ -1,7 +1,7 @@
 import { expect, fixture, html } from '@open-wc/testing';
 
-import '@openscd/open-scd/test/mock-wizard-editor.js';
-import { MockWizardEditor } from '@openscd/open-scd/test/mock-wizard-editor.js';
+import '@noraeb/open-scd/test/mock-wizard-editor.js';
+import { MockWizardEditor } from '@noraeb/open-scd/test/mock-wizard-editor.js';
 
 import { ListItemBase } from '@material/mwc-list/mwc-list-item-base';
 
@@ -9,10 +9,10 @@ import {
   editGseControlWizard,
   selectGseControlWizard,
 } from '../../../src/wizards/gsecontrol.js';
-import { FilteredList } from '@openscd/open-scd/src/filtered-list.js';
-import { WizardTextField } from '@openscd/open-scd/src/wizard-textfield.js';
-import { FinderList } from '@openscd/open-scd/src/finder-list.js';
-import { newWizardEvent } from '@openscd/open-scd/src/foundation.js';
+import { FilteredList } from '@noraeb/open-scd/src/filtered-list.js';
+import { WizardTextField } from '@noraeb/open-scd/src/wizard-textfield.js';
+import { FinderList } from '@noraeb/open-scd/src/finder-list.js';
+import { newWizardEvent } from '@noraeb/open-scd/src/foundation.js';
 
 describe('Wizards for SCL element GSEControl', () => {
   let doc: XMLDocument;

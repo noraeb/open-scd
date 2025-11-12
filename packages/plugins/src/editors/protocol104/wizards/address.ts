@@ -13,14 +13,14 @@ import {
   Wizard,
   WizardActor,
   WizardInputElement,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 
 import { cloneElement } from '@noraeb/xml';
 
 import { EditorAction } from '@noraeb/core/foundation/deprecated/editor.js';
 
-import '@openscd/open-scd/src/wizard-textfield.js';
-import '@openscd/open-scd/src/wizard-select.js';
+import '@noraeb/open-scd/src/wizard-textfield.js';
+import '@noraeb/open-scd/src/wizard-select.js';
 
 import {
   getCdcValueFromDOIElement,

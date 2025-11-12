@@ -7,13 +7,13 @@ import {
   WizardAction,
   WizardActor,
   WizardInputElement,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 
 import {
   createElement,
 } from '@noraeb/xml';
 
-import { FinderList } from '@openscd/open-scd/src/finder-list.js';
+import { FinderList } from '@noraeb/open-scd/src/finder-list.js';
 import {
   dataAttributePicker,
   getDataModelChildren,

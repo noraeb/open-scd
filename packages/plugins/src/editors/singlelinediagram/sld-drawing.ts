@@ -2,13 +2,13 @@ import {
   getDescriptionAttribute,
   getNameAttribute,
   identity,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 import { getIcon } from '../substation/foundation.js';
 import {
   connectivityNodeIcon,
   editIcon,
   powerTransformerTwoWindingIcon,
-} from '@openscd/open-scd/src/icons/icons.js';
+} from '@noraeb/open-scd/src/icons/icons.js';
 
 import {
   getRelativeCoordinates,

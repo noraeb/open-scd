@@ -1,16 +1,16 @@
 import { html, fixture, expect } from '@open-wc/testing';
 
-import '@openscd/open-scd/test/mock-open-scd.js';
-import { MockOpenSCD } from '@openscd/open-scd/test/mock-open-scd.js';
+import '@noraeb/open-scd/test/mock-open-scd.js';
+import { MockOpenSCD } from '@noraeb/open-scd/test/mock-open-scd.js';
 
 import { ListItemBase } from '@material/mwc-list/mwc-list-item-base';
 
-import { FilteredList } from '@openscd/open-scd/src/filtered-list.js';
+import { FilteredList } from '@noraeb/open-scd/src/filtered-list.js';
 import { ListItem } from '@material/mwc-list/mwc-list-item';
 import TemplatesPlugin from '../../../src/editors/Templates.js';
-import { WizardSelect } from '@openscd/open-scd/src/wizard-select.js';
-import { WizardTextField } from '@openscd/open-scd/src/wizard-textfield.js';
-import { WizardCheckbox } from '@openscd/open-scd/src/wizard-checkbox.js';
+import { WizardSelect } from '@noraeb/open-scd/src/wizard-select.js';
+import { WizardTextField } from '@noraeb/open-scd/src/wizard-textfield.js';
+import { WizardCheckbox } from '@noraeb/open-scd/src/wizard-checkbox.js';
 
 describe('DA wizarding editing integration', () => {
   if (customElements.get('templates-editor') === undefined)

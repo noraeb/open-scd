@@ -20,11 +20,11 @@ import './line-editor.js';
 import './process-editor.js';
 import './substation-editor.js';
 import './ied-editor.js';
-import { isPublic, newWizardEvent } from '@openscd/open-scd/src/foundation.js';
+import { isPublic, newWizardEvent } from '@noraeb/open-scd/src/foundation.js';
 import { emptyWizard, wizards } from '../../wizards/wizard-library.js';
 import { getAttachedIeds } from './foundation.js';
 
-import { SCLTag, tags } from '@openscd/open-scd/src/foundation.js';
+import { SCLTag, tags } from '@noraeb/open-scd/src/foundation.js';
 import { Settings } from '@noraeb/core/foundation/deprecated/settings.js';
 
 function shouldShowIEDs(): boolean {

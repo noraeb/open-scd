@@ -9,14 +9,14 @@ import {
   query,
 } from 'lit-element';
 
-import '@openscd/open-scd/src/action-pane.js';
+import '@noraeb/open-scd/src/action-pane.js';
 import './sub-function-editor.js';
 import './general-equipment-editor.js';
 import {
   newWizardEvent,
   SCLTag,
   tags,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 
 import { getChildElementsByTagName } from '@noraeb/xml';
 

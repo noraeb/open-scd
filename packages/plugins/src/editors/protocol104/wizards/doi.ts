@@ -8,12 +8,12 @@ import {
   newWizardEvent,
   Wizard,
   WizardMenuActor,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 import {
   ComplexAction,
   newActionEvent,
 } from '@noraeb/core/foundation/deprecated/editor.js';
-import '@openscd/open-scd/src/wizard-textfield.js';
+import '@noraeb/open-scd/src/wizard-textfield.js';
 
 import {
   getCdcValueFromDOIElement,

@@ -17,9 +17,9 @@ import '@material/mwc-icon-button-toggle';
 import {
   getDescriptionAttribute,
   getNameAttribute,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 
-import '@openscd/open-scd/src/action-pane.js';
+import '@noraeb/open-scd/src/action-pane.js';
 
 import { getFullPath } from './foundation/foundation.js';
 

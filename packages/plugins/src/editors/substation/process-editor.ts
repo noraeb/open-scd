@@ -27,13 +27,13 @@ import './process-editor.js';
 import './substation-editor.js';
 import './process-editor.js';
 
-import { processIcon } from '@openscd/open-scd/src/icons/icons.js';
+import { processIcon } from '@noraeb/open-scd/src/icons/icons.js';
 import { styles } from './foundation.js';
 import {
   newWizardEvent,
   SCLTag,
   tags,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 
 import {
   getChildElementsByTagName,

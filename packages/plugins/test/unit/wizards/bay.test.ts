@@ -3,14 +3,14 @@ import { fixture, html, expect } from '@open-wc/testing';
 import {
   WizardInputElement,
   WizardActor,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 import { 
   isCreate,
   isReplace,
   isSimple,
   ComplexAction 
 } from '@noraeb/core/foundation/deprecated/editor.js';
-import '@openscd/open-scd/src/wizard-textfield.js';
+import '@noraeb/open-scd/src/wizard-textfield.js';
 import { createAction } from '../../../src/wizards/bay.js';
 import { replaceNamingAttributeWithReferencesAction } from '../../../src/wizards/foundation/actions.js';
 

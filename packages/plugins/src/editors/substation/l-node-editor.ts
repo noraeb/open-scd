@@ -7,12 +7,12 @@ import {
   state,
 } from 'lit-element';
 
-import '@openscd/open-scd/src/action-icon.js';
+import '@noraeb/open-scd/src/action-icon.js';
 import {
   identity,
   newLnInstGenerator,
   newWizardEvent,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 
 import {
   cloneElement,
@@ -36,7 +36,7 @@ import {
   switchgearLogicalNode,
   systemLogicalNode,
   transformerLogicalNode,
-} from '@openscd/open-scd/src/icons/lnode.js';
+} from '@noraeb/open-scd/src/icons/lnode.js';
 import { wizards } from '../../wizards/wizard-library.js';
 
 export function getLNodeIcon(lNode: Element): TemplateResult {

@@ -18,7 +18,7 @@ import { Menu } from '@material/mwc-menu';
 import { IconButton } from '@material/mwc-icon-button';
 import { ListItem } from '@material/mwc-list/mwc-list-item';
 
-import '@openscd/open-scd/src/action-pane.js';
+import '@noraeb/open-scd/src/action-pane.js';
 import './ied-editor.js';
 import './conducting-equipment-editor.js';
 import './general-equipment-editor.js';
@@ -28,7 +28,7 @@ import {
   newWizardEvent,
   SCLTag,
   tags,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 
 import {
   getChildElementsByTagName,
@@ -38,7 +38,7 @@ import { newActionEvent } from '@noraeb/core/foundation/deprecated/editor.js';
 import {
   bayIcon,
   voltageLevelIcon,
-} from '@openscd/open-scd/src/icons/icons.js';
+} from '@noraeb/open-scd/src/icons/icons.js';
 import { emptyWizard, wizards } from '../../wizards/wizard-library.js';
 import {
   cloneSubstationElement,

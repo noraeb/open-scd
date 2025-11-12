@@ -19,12 +19,12 @@ import { Dialog } from '@material/mwc-dialog';
 import { CheckListItem } from '@material/mwc-list/mwc-check-list-item';
 import { Select } from '@material/mwc-select';
 
-import '@openscd/open-scd/src/filtered-list.js';
-import { find, identity } from '@openscd/open-scd/src/foundation.js';
+import '@noraeb/open-scd/src/filtered-list.js';
+import { find, identity } from '@noraeb/open-scd/src/foundation.js';
 import { getChildElementsByTagName } from '@noraeb/xml';
 
 import { newActionEvent } from '@noraeb/core/foundation/deprecated/editor.js';
-import { WizardTextField } from '@openscd/open-scd/src/wizard-textfield.js';
+import { WizardTextField } from '@noraeb/open-scd/src/wizard-textfield.js';
 import {
   getFunctionNamingPrefix,
   getNonLeafParent,

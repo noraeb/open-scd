@@ -1,7 +1,7 @@
 import {
   getNameAttribute,
   newWizardEvent,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 import { Create } from '@noraeb/core/foundation/deprecated/editor.js';
 import { newLogEvent } from '@noraeb/core/foundation/deprecated/history.js';
 
@@ -22,7 +22,7 @@ import { editAddressWizard } from '../wizards/address.js';
 import {
   determineUninitializedStructure,
   initializeElements,
-} from '@openscd/open-scd/src/foundation/dai.js';
+} from '@noraeb/open-scd/src/foundation/dai.js';
 import { get } from 'lit-translate';
 
 /**

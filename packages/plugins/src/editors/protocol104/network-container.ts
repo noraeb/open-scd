@@ -5,7 +5,7 @@ import './subnetwork-container.js';
 import {
   compareNames,
   newWizardEvent,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 
 import { createElement } from '@noraeb/xml';
 

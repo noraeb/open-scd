@@ -3,7 +3,7 @@ import { get } from 'lit-translate';
 
 import { cloneElement, createElement } from '@noraeb/xml';
 
-import '@openscd/open-scd/src/wizard-textfield.js';
+import '@noraeb/open-scd/src/wizard-textfield.js';
 import {
   getMultiplier,
   getValue,
@@ -11,7 +11,7 @@ import {
   Wizard,
   WizardActor,
   WizardInputElement,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 import {
   ComplexAction,
   EditorAction,

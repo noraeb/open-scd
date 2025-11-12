@@ -12,7 +12,7 @@ import { get } from 'lit-translate';
 
 import {
   identity,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 
 import {
   createElement,
@@ -23,7 +23,7 @@ import {
   Delete,
   newActionEvent,
 } from '@noraeb/core/foundation/deprecated/editor.js';
-import { Nsdoc } from '@openscd/open-scd/src/foundation/nsdoc.js';
+import { Nsdoc } from '@noraeb/open-scd/src/foundation/nsdoc.js';
 
 import {
   canCreateValidExtRef,
@@ -39,7 +39,7 @@ import {
   canRemoveSubscriptionSupervision,
 } from '../foundation.js';
 import { getSubscribedExtRefElements } from './foundation.js';
-import { emptyInputsDeleteActions } from '@openscd/open-scd/src/foundation/ied.js';
+import { emptyInputsDeleteActions } from '@noraeb/open-scd/src/foundation/ied.js';
 
 /**
  * A sub element for showing all Ext Refs from a FCDA Element.

@@ -7,11 +7,11 @@ import {
   getInstanceAttribute,
   getNameAttribute,
   newWizardEvent,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 import { newActionEvent } from '@noraeb/core/foundation/deprecated/editor.js';
 import { IconButtonToggle } from '@material/mwc-icon-button-toggle';
 
-import '@openscd/open-scd/src/action-pane.js';
+import '@noraeb/open-scd/src/action-pane.js';
 import './do-container.js';
 
 import { Container } from './foundation.js';

@@ -4,7 +4,7 @@ import { get } from 'lit-translate';
 import '@material/mwc-fab';
 
 import './communication/subnetwork-editor.js';
-import { newWizardEvent, isPublic } from '@openscd/open-scd/src/foundation.js';
+import { newWizardEvent, isPublic } from '@noraeb/open-scd/src/foundation.js';
 
 import { createElement } from '@noraeb/xml';
 

@@ -10,9 +10,9 @@ import { ListItem } from '@material/mwc-list/mwc-list-item';
 import { Select } from '@material/mwc-select';
 import { SingleSelectedEvent } from '@material/mwc-list/mwc-list-foundation';
 
-import '@openscd/open-scd/src/wizard-checkbox.js';
-import '@openscd/open-scd/src/wizard-textfield.js';
-import '@openscd/open-scd/src/wizard-select.js';
+import '@noraeb/open-scd/src/wizard-checkbox.js';
+import '@noraeb/open-scd/src/wizard-textfield.js';
+import '@noraeb/open-scd/src/wizard-select.js';
 import {
   find,
   getValue,
@@ -25,7 +25,7 @@ import {
   WizardActor,
   WizardInputElement,
   WizardMenuActor,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 
 import {
   cloneElement,
@@ -39,7 +39,7 @@ import {
   newActionEvent,
   Replace,
 } from '@noraeb/core/foundation/deprecated/editor.js';
-import { WizardSelect } from '@openscd/open-scd/src/wizard-select.js';
+import { WizardSelect } from '@noraeb/open-scd/src/wizard-select.js';
 import {
   addReferencedDataTypes,
   allDataTypeSelector,

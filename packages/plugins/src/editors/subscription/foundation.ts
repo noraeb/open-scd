@@ -5,7 +5,7 @@ import {
   getSclSchemaVersion,
   isPublic,
   minAvailableLogicalNodeInstance,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 
 import {
   cloneElement,
@@ -13,8 +13,8 @@ import {
 } from '@noraeb/xml';
 
 import { Create, Delete } from '@noraeb/core/foundation/deprecated/editor.js';
-import { getFcdaReferences } from '@openscd/open-scd/src/foundation/ied.js';
-import { SCL_NAMESPACE } from '@openscd/open-scd/src/schemas.js';
+import { getFcdaReferences } from '@noraeb/open-scd/src/foundation/ied.js';
+import { SCL_NAMESPACE } from '@noraeb/open-scd/src/schemas.js';
 
 export enum View {
   PUBLISHER,

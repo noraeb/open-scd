@@ -14,8 +14,8 @@ import { List } from '@material/mwc-list';
 import { ListItemBase } from '@material/mwc-list/mwc-list-item-base';
 import { SingleSelectedEvent } from '@material/mwc-list/mwc-list-foundation';
 
-import '@openscd/open-scd/src/wizard-textfield.js';
-import '@openscd/open-scd/src/filtered-list.js';
+import '@noraeb/open-scd/src/wizard-textfield.js';
+import '@noraeb/open-scd/src/filtered-list.js';
 
 import {
   pTypes104,
@@ -34,7 +34,7 @@ import {
   WizardActor,
   WizardInputElement,
   WizardMenuActor,
-} from '@openscd/open-scd/src/foundation.js';
+} from '@noraeb/open-scd/src/foundation.js';
 
 import { cloneElement, createElement } from '@noraeb/xml';
 

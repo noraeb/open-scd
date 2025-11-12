@@ -3,8 +3,8 @@ import { LitElement, property } from 'lit-element';
 import {
   getInstanceAttribute,
   getNameAttribute,
-} from '@openscd/open-scd/src/foundation.js';
-import { Nsdoc } from '@openscd/open-scd/src/foundation/nsdoc.js';
+} from '@noraeb/open-scd/src/foundation.js';
+import { Nsdoc } from '@noraeb/open-scd/src/foundation/nsdoc.js';
 import { createElement } from '@noraeb/xml';
 import { InsertV2 } from '@noraeb/core';
 import { insertSelectedLNodeType } from '@openenergytools/scl-lib/dist/tDataTypeTemplates/insertSelectedLNodeType.js';

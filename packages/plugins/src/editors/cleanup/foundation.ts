@@ -1,6 +1,6 @@
 'use strict';
 
-import { identity } from '@openscd/open-scd/src/foundation.js';
+import { identity } from '@noraeb/open-scd/src/foundation.js';
 import { Delete } from '@noraeb/core/foundation/deprecated/editor.js';
 
 /**

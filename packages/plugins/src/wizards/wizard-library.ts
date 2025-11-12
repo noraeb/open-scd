@@ -1,4 +1,4 @@
-import { SCLTag, Wizard } from '@openscd/open-scd/src/foundation.js';
+import { SCLTag, Wizard } from '@noraeb/open-scd/src/foundation.js';
 
 import { createBayWizard, editBayWizard } from './bay.js';
 import {

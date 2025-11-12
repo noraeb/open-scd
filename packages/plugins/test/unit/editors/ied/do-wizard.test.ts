@@ -1,9 +1,9 @@
 import { expect, fixture, html } from '@open-wc/testing';
 
-import '@openscd/open-scd/src/addons/Wizards.js';
-import { OscdWizards } from '@openscd/open-scd/src/addons/Wizards.js';
+import '@noraeb/open-scd/src/addons/Wizards.js';
+import { OscdWizards } from '@noraeb/open-scd/src/addons/Wizards.js';
 
-import { initializeNsdoc } from '@openscd/open-scd/src/foundation/nsdoc.js';
+import { initializeNsdoc } from '@noraeb/open-scd/src/foundation/nsdoc.js';
 import { createDoInfoWizard } from '../../../../src/editors/ied/do-wizard.js';
 import { getAncestorsFromDO } from './test-support.js';
 
@@ -12,7 +12,7 @@ describe('do-wizard', async () => {
   let validSCL: XMLDocument;
   localStorage.clear();
   const nsdoc74 = await fetch(
-    '@openscd/open-scd/test/testfiles/foundation/testFile74.nsdoc'
+    '@noraeb/open-scd/test/testfiles/foundation/testFile74.nsdoc'
   ).then(response => response.text());
 
   localStorage.setItem('IEC 61850-7-4', nsdoc74!);

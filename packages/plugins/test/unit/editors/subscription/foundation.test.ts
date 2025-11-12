@@ -10,7 +10,7 @@ import {
   updateExtRefElement,
 } from '../../../../src/editors/subscription/foundation.js';
 
-import { identity } from '@openscd/open-scd/src/foundation.js';
+import { identity } from '@noraeb/open-scd/src/foundation.js';
 
 describe('foundation', () => {
   let doc: XMLDocument;
