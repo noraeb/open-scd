@@ -20,7 +20,7 @@
   ],
   "dependencies": {
     "lit": "^2.2.7",
-    "@openscd/core": "*"
+    "@openscd/core": "npm:@noraeb/core@*"
   },
   "//": {
     "clean": "rimraf build",
