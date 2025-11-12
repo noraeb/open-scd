@@ -20,7 +20,7 @@
     "./dist/**"
   ],
   "dependencies": {
-    "@openscd/addons": "*",
+    "@openscd/addons": "npm:@noraeb/addons@*",
     "@openscd/open-scd": "*",
     "@openscd/plugins": "*"
   },

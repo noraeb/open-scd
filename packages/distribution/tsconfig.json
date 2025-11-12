@@ -16,7 +16,10 @@
     "sourceMap": true,
     "inlineSources": true,
     "resolveJsonModule": true,
-    "rootDir": "./"
+    "paths": {
+      "@openscd/addons": ["../addons/src"],
+      "@openscd/addons/*": ["../addons/*"]
+    }
   },
   "include": ["**/*.ts"]
 }
