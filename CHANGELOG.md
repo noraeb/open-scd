@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.36.2](https://github.com/noraeb/open-scd/compare/v0.36.1...v0.36.2) (2025-11-12)
+
+
+### Bug Fixes
+
+* publish forms ([e21dc95](https://github.com/noraeb/open-scd/commit/e21dc9528b7c48ed7b9350d3ef8fa56c442c50d0))
+* publish open-scd ([0ba9969](https://github.com/noraeb/open-scd/commit/0ba99693c98338ce4e67a6b3605af781bc67adf8))
+* publish wizards ([474ac36](https://github.com/noraeb/open-scd/commit/474ac36791602a9857cc17e0c84a5bcc2e98f8c5))
+* publish xml ([6229cfe](https://github.com/noraeb/open-scd/commit/6229cfec8880236dd18e8445bb11df20fb25c6f5))
+
 ## [0.36.1](https://github.com/noraeb/open-scd/compare/v0.36.0...v0.36.1) (2025-11-12)
 
 
