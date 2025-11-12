@@ -1,5 +1,5 @@
 {
-  "name": "@openscd/open-scd",
+  "name": "@noraeb/open-scd",
   "version": "0.34.0",
   "repository": "https://github.com/openscd/open-scd.git",
   "directory": "packages/openscd",

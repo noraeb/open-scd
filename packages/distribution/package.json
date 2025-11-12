@@ -21,7 +21,7 @@
   ],
   "dependencies": {
     "@openscd/addons": "npm:@noraeb/addons@*",
-    "@openscd/open-scd": "*",
+    "@openscd/open-scd": "npm:@noraeb/open-scd@*",
     "@openscd/plugins": "*"
   },
   "scripts": {

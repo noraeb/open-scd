@@ -50,6 +50,12 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
         if: ${{ steps.release.outputs.release_created }}
         continue-on-error: true
+      - name: Publish @noraeb/open-scd to npm
+        run: cd packages/openscd && npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+        if: ${{ steps.release.outputs.release_created }}
+        continue-on-error: true
       
         
       - name: Create and Zip Build Assets
