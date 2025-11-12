@@ -1,6 +1,6 @@
 {
-  "name": "@openscd/xml",
-  "version": "0.0.1",
+  "name": "@noraeb/xml",
+  "version": "0.0.2",
   "description": "The XML manipulation package for OpenSCD",
   "author": "Open-SCD",
   "license": "Apache-2.0",
@@ -12,6 +12,9 @@
   "files": [
     "./dist/**"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": "./dist/index.js"
   },
