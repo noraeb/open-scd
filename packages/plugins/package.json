@@ -32,7 +32,7 @@
     "@openenergytools/scl-lib": "^1.8.0",
     "@openscd/core": "npm:@noraeb/core@*",
     "@openscd/open-scd": "npm:@noraeb/open-scd@*",
-    "@openscd/wizards": "*",
+    "@openscd/wizards": "npm:@noraeb/wizards@*",
     "@openscd/xml": "*",
     "lit": "^2.2.7",
     "lit-translate": "^1.2.1",

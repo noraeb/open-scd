@@ -20,7 +20,9 @@
       "@openscd/core": ["../core/foundation.ts"],
       "@openscd/core/*": ["../core/*"],
       "@openscd/open-scd": ["../openscd/src/open-scd.ts"],
-      "@openscd/open-scd/*": ["../openscd/*"]
+      "@openscd/open-scd/*": ["../openscd/*"],
+      "@openscd/wizards": ["../wizards/src"],
+      "@openscd/wizards/*": ["../wizards/*"]
     }
   },
   "include": ["src/**/*.ts"]

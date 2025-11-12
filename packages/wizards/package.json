@@ -1,5 +1,5 @@
 {
-  "name": "@openscd/wizards",
+  "name": "@noraeb/wizards",
   "version": "0.0.1",
   "repository": "https://github.com/openscd/open-scd.git",
   "directory": "packages/wizards",
