@@ -11,9 +11,9 @@ import {
   WizardInputElement,
 } from '@openscd/open-scd/src/foundation.js';
 
-import { cloneElement } from '@openscd/xml';
+import { cloneElement } from '@noraeb/xml';
 
-import { SimpleAction } from '@openscd/core/foundation/deprecated/editor.js';
+import { SimpleAction } from '@noraeb/core/foundation/deprecated/editor.js';
 import { patterns } from './foundation/limits.js';
 
 function getLNodeTypeOptions(element: Element): string[] {

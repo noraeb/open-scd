@@ -17,13 +17,13 @@ import {
 
 import {
   cloneElement,
-} from '@openscd/xml';
+} from '@noraeb/xml';
 
 import {
   ComplexAction,
   Delete,
   newActionEvent,
-} from '@openscd/core/foundation/deprecated/editor.js';
+} from '@noraeb/core/foundation/deprecated/editor.js';
 
 import {
   getExistingSupervision,

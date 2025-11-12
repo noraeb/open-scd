@@ -16,9 +16,9 @@ import {
 
 import {
   cloneElement,
-} from '@openscd/xml';
+} from '@noraeb/xml';
 
-import { newActionEvent } from '@openscd/core/foundation/deprecated/editor.js';
+import { newActionEvent } from '@noraeb/core/foundation/deprecated/editor.js';
 import {
   automationLogicalNode,
   controlLogicalNode,

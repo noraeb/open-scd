@@ -25,13 +25,13 @@ import {
 
 import {
   createElement,
-} from '@openscd/xml';
+} from '@noraeb/xml';
 
 import {
   EditorAction,
   ComplexAction,
   SimpleAction,
-} from '@openscd/core/foundation/deprecated/editor.js';
+} from '@noraeb/core/foundation/deprecated/editor.js';
 import {
   getTypes,
   typeMaxLength,

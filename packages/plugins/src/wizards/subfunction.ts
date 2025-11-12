@@ -4,7 +4,7 @@ import {
   cloneElement,
   createElement,
   getChildElementsByTagName,
-} from '@openscd/xml';
+} from '@noraeb/xml';
 
 import {
   getValue,
@@ -12,7 +12,7 @@ import {
   WizardActor,
   WizardInputElement,
 } from '@openscd/open-scd/src/foundation.js';
-import { SimpleAction } from '@openscd/core/foundation/deprecated/editor';
+import { SimpleAction } from '@noraeb/core/foundation/deprecated/editor';
 import { contentFunctionWizard } from './function.js';
 
 function updateSubFunctionAction(element: Element): WizardActor {

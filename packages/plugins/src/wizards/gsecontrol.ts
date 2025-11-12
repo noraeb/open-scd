@@ -30,7 +30,7 @@ import {
   cloneElement,
   createElement,
   getUniqueElementName,
-} from '@openscd/xml';
+} from '@noraeb/xml';
 
 import { 
   ComplexAction,
@@ -38,7 +38,7 @@ import {
   SimpleAction,
   EditorAction,
   newActionEvent
-} from '@openscd/core/foundation/deprecated/editor.js';
+} from '@noraeb/core/foundation/deprecated/editor.js';
 import { maxLength, patterns } from './foundation/limits.js';
 import { editDataSetWizard } from './dataset.js';
 import { editGseWizard } from './gse.js';

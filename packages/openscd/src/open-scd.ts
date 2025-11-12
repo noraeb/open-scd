@@ -26,8 +26,8 @@ import '@material/mwc-select';
 import '@material/mwc-switch';
 import '@material/mwc-textfield';
 
-import { newOpenDocEvent } from '@openscd/core/foundation/deprecated/open-event.js';
-import { newPendingStateEvent } from '@openscd/core/foundation/deprecated/waiter.js';
+import { newOpenDocEvent } from '@noraeb/core/foundation/deprecated/open-event.js';
+import { newPendingStateEvent } from '@noraeb/core/foundation/deprecated/waiter.js';
 
 import './addons/Settings.js';
 import './addons/Waiter.js';
@@ -44,12 +44,12 @@ import type {
   PluginSet,
   Plugin as CorePlugin,
   EditCompletedEvent,
-} from '@openscd/core';
-import { OscdApi, XMLEditor } from '@openscd/core';
+} from '@noraeb/core';
+import { OscdApi, XMLEditor } from '@noraeb/core';
 
 import { InstalledOfficialPlugin, MenuPosition, PluginKind, Plugin } from "./plugin.js"
 import { ConfigurePluginEvent, ConfigurePluginDetail, newConfigurePluginEvent } from './plugin.events.js';
-import { newLogEvent } from '@openscd/core/foundation/deprecated/history';
+import { newLogEvent } from '@noraeb/core/foundation/deprecated/history';
 import { pluginTag } from './plugin-tag.js';
 
 

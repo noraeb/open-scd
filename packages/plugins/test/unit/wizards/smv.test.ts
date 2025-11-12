@@ -10,7 +10,7 @@ import {
   ComplexAction,
   Create,
   Delete,
-} from '@openscd/core/foundation/deprecated/editor.js';
+} from '@noraeb/core/foundation/deprecated/editor.js';
 import { editSMvWizard } from '../../../src/wizards/smv.js';
 import { invertedRegex, MAC, regExp } from '../../foundation.js';
 import { WizardTextField } from '@openscd/open-scd/src/wizard-textfield.js';

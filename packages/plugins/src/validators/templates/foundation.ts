@@ -1,4 +1,4 @@
-import { LogDetailBase } from '@openscd/core/foundation/deprecated/history.js';
+import { LogDetailBase } from '@noraeb/core/foundation/deprecated/history.js';
 
 import { dAValidator } from './dabda.js';
 import { dATypeValidator } from './datype.js';

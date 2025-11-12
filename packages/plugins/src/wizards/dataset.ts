@@ -19,9 +19,9 @@ import {
   newSubWizardEvent,
 } from '@openscd/open-scd/src/foundation.js';
 
-import { cloneElement } from '@openscd/xml';
+import { cloneElement } from '@noraeb/xml';
 
-import { Replace } from '@openscd/core/foundation/deprecated/editor.js';
+import { Replace } from '@noraeb/core/foundation/deprecated/editor.js';
 import { createFCDAsWizard } from './fcda.js';
 
 function openFcdaWizard(element: Element): WizardMenuActor {

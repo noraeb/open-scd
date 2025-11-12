@@ -8,7 +8,7 @@ import {
   WizardInputElement,
   getValue,
 } from '@openscd/open-scd/src/foundation.js';
-import { createUpdateAction } from '@openscd/core/foundation/deprecated/editor.js';
+import { createUpdateAction } from '@noraeb/core/foundation/deprecated/editor.js';
 import { editLDeviceWizard } from '../../../src/wizards/ldevice.js';
 import {
   fetchDoc,

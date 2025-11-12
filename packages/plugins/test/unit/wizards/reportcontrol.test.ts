@@ -14,7 +14,7 @@ import {
   Create, 
   Delete, 
   Replace 
-} from '@openscd/core/foundation/deprecated/editor.js';
+} from '@noraeb/core/foundation/deprecated/editor.js';
 import { WizardTextField } from '@openscd/open-scd/src/wizard-textfield.js';
 import {
   reportControlParentSelector,

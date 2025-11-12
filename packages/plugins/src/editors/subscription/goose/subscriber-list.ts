@@ -19,7 +19,7 @@ import {
 
 import {
   createElement,
-} from '@openscd/xml';
+} from '@noraeb/xml';
 
 import {
   ComplexAction,
@@ -27,7 +27,7 @@ import {
   Delete,
   Move,
   newActionEvent,
-} from '@openscd/core/foundation/deprecated/editor.js';
+} from '@noraeb/core/foundation/deprecated/editor.js';
 import {
   GOOSESelectEvent,
   GooseSubscriptionEvent,

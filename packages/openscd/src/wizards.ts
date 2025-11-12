@@ -16,7 +16,7 @@ import {
   Wizard,
   WizardActor,
 } from './foundation.js';
-import { EditorAction, SimpleAction } from '@openscd/core/foundation/deprecated/editor.js';
+import { EditorAction, SimpleAction } from '@noraeb/core/foundation/deprecated/editor.js';
 interface MergeOptions {
   title?: string;
   selected?: (diff: Diff<Element | string>) => boolean;

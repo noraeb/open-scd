@@ -32,9 +32,9 @@ import {
 
 import {
   getChildElementsByTagName,
-} from '@openscd/xml';
+} from '@noraeb/xml';
 
-import { newActionEvent } from '@openscd/core/foundation/deprecated/editor.js';
+import { newActionEvent } from '@noraeb/core/foundation/deprecated/editor.js';
 import { startMove, styles } from './foundation.js';
 import { SubstationEditor } from './substation-editor.js';
 import { BayEditor } from './bay-editor.js';

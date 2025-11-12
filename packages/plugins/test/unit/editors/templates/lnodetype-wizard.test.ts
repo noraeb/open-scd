@@ -13,7 +13,7 @@ import {
   ComplexAction,
   Replace,
   isSimple
-} from '@openscd/core/foundation/deprecated/editor.js';
+} from '@noraeb/core/foundation/deprecated/editor.js';
 import { lNodeTypeWizard } from '../../../../src/editors/templates/lnodetype-wizard.js';
 import { regExp, regexString } from '../../../foundation.js';
 

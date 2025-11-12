@@ -10,9 +10,9 @@ import {
   WizardInputElement,
 } from '@openscd/open-scd/src/foundation.js';
 
-import { cloneElement, createElement } from '@openscd/xml';
+import { cloneElement, createElement } from '@noraeb/xml';
 
-import { SimpleAction } from '@openscd/core/foundation/deprecated/editor.js';
+import { SimpleAction } from '@noraeb/core/foundation/deprecated/editor.js';
 
 const initial = {
   nomFreq: '50',

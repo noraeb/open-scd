@@ -9,9 +9,9 @@ import {
   WizardInputElement,
 } from '@openscd/open-scd/src/foundation.js';
 
-import { createElement } from '@openscd/xml';
+import { createElement } from '@noraeb/xml';
 
-import { EditorAction } from '@openscd/core/foundation/deprecated/editor';
+import { EditorAction } from '@noraeb/core/foundation/deprecated/editor';
 
 import '@openscd/open-scd/src/wizard-textfield.js';
 

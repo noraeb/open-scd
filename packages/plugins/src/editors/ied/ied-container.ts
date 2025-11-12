@@ -20,8 +20,8 @@ import {
   getNameAttribute,
   newWizardEvent,
 } from '@openscd/open-scd/src/foundation.js';
-import { newActionEvent } from '@openscd/core/foundation/deprecated/editor.js';
-import { newEditEventV2, InsertV2 } from '@openscd/core';
+import { newActionEvent } from '@noraeb/core/foundation/deprecated/editor.js';
+import { newEditEventV2, InsertV2 } from '@noraeb/core';
 import { removeIEDWizard } from '../../wizards/ied.js';
 import { editServicesWizard } from '../../wizards/services.js';
 import {

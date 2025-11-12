@@ -15,9 +15,9 @@ import {
   WizardInputElement,
 } from '@openscd/open-scd/src/foundation.js';
 
-import { cloneElement } from '@openscd/xml';
+import { cloneElement } from '@noraeb/xml';
 
-import { EditorAction } from '@openscd/core/foundation/deprecated/editor.js';
+import { EditorAction } from '@noraeb/core/foundation/deprecated/editor.js';
 
 import '@openscd/open-scd/src/wizard-textfield.js';
 import '@openscd/open-scd/src/wizard-select.js';

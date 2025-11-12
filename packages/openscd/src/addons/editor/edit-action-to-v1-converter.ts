@@ -12,8 +12,8 @@ import {
   Replace,
   SimpleAction,
   Update
-} from '@openscd/core/foundation/deprecated/editor.js';
-import { Edit, Insert, Remove, Update as UpdateV2 } from '@openscd/core';
+} from '@noraeb/core/foundation/deprecated/editor.js';
+import { Edit, Insert, Remove, Update as UpdateV2 } from '@noraeb/core';
 import { getReference, SCLTag } from '../../foundation.js';
 
 

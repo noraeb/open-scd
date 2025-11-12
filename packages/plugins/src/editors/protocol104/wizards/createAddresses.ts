@@ -24,7 +24,7 @@ import {
 import {
   ComplexAction,
   EditorAction,
-} from '@openscd/core/foundation/deprecated/editor.js';
+} from '@noraeb/core/foundation/deprecated/editor.js';
 import {
   getCdcValueFromDOElement,
   getCtlModel,

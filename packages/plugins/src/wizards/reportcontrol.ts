@@ -31,7 +31,7 @@ import {
   cloneElement,
   createElement,
   getUniqueElementName,
-} from '@openscd/xml';
+} from '@noraeb/xml';
 
 import {
   EditorAction,
@@ -39,7 +39,7 @@ import {
   Delete,
   ComplexAction,
   newActionEvent,
-} from '@openscd/core/foundation/deprecated/editor.js';
+} from '@noraeb/core/foundation/deprecated/editor.js';
 import { FilteredList } from '@openscd/open-scd/src/filtered-list.js';
 import { FinderList } from '@openscd/open-scd/src/finder-list.js';
 import { dataAttributePicker, iEDPicker } from './foundation/finder.js';

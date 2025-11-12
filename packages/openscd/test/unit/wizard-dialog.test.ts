@@ -9,7 +9,7 @@ import { checkValidity, WizardInputElement } from '../../src/foundation.js';
 import { WizardCheckbox } from '../../src/wizard-checkbox.js';
 import { WizardSelect } from '../../src/wizard-select.js';
 import { WizardTextField } from '../../src/wizard-textfield.js';
-import { ComplexAction, Create, Delete, EditorAction } from '@openscd/core/foundation/deprecated/editor.js';
+import { ComplexAction, Create, Delete, EditorAction } from '@noraeb/core/foundation/deprecated/editor.js';
 
 describe('wizard-dialog', () => {
   let element: WizardDialog;

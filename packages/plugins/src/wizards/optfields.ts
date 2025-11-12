@@ -15,7 +15,7 @@ import {
 
 import {
   cloneElement,
-} from '@openscd/xml';
+} from '@noraeb/xml';
 
 interface ContentOptions {
   seqNum: string | null;

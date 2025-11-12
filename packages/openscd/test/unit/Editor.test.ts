@@ -13,8 +13,8 @@ import {
   SetTextContentV2,
   RemoveV2,
   XMLEditor
-} from '@openscd/core';
-import { CommitDetail, LogDetail } from '@openscd/core/foundation/deprecated/history.js';
+} from '@noraeb/core';
+import { CommitDetail, LogDetail } from '@noraeb/core/foundation/deprecated/history.js';
 
 
 describe('OSCD-Editor', () => {

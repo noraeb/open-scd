@@ -12,14 +12,14 @@ import {
   WizardMenuActor,
 } from '@openscd/open-scd/src/foundation.js';
 
-import { cloneElement, createElement } from '@openscd/xml';
+import { cloneElement, createElement } from '@noraeb/xml';
 
 import {
   ComplexAction,
   EditorAction,
   newActionEvent,
   SimpleAction,
-} from '@openscd/core/foundation/deprecated/editor.js';
+} from '@noraeb/core/foundation/deprecated/editor.js';
 import { createNetworkTextField } from '../foundation/foundation.js';
 
 export function editLogicLinkWizard(

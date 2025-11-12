@@ -10,7 +10,7 @@ import {
   Replace,
   isCreate,
   isReplace,
-} from '@openscd/core/foundation/deprecated/editor.js';
+} from '@noraeb/core/foundation/deprecated/editor.js';
 import {
   editSubEquipmentWizard,
   createSubEquipmentWizard,

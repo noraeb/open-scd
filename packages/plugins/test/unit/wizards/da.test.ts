@@ -15,7 +15,7 @@ import {
   isReplace,
   Create, 
   Replace 
-} from '@openscd/core/foundation/deprecated/editor.js';
+} from '@noraeb/core/foundation/deprecated/editor.js';
 import {
   createDaAction,
   renderDa,

@@ -17,7 +17,7 @@ import {
   isReplace,
   Delete, 
   Replace 
-} from '@openscd/core/foundation/deprecated/editor.js';
+} from '@noraeb/core/foundation/deprecated/editor.js';
 
 describe('dataset wizards', () => {
   let doc: XMLDocument;

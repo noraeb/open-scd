@@ -15,8 +15,8 @@ import {
   SimpleAction,
   Update,
   createUpdateAction
-} from '@openscd/core/foundation/deprecated/editor.js';
-import { Edit, Insert, Remove, Update as UpdateV2 } from '@openscd/core';
+} from '@noraeb/core/foundation/deprecated/editor.js';
+import { Edit, Insert, Remove, Update as UpdateV2 } from '@noraeb/core';
 
 import { convertEditActiontoV1 } from '../../src/addons/editor/edit-action-to-v1-converter.js';
 

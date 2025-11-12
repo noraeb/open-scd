@@ -8,7 +8,7 @@ import {
 
 import '@material/mwc-linear-progress';
 
-import { PendingStateDetail } from '@openscd/core/foundation/deprecated/waiter.js';
+import { PendingStateDetail } from '@noraeb/core/foundation/deprecated/waiter.js';
 
 @customElement('oscd-waiter')
 export class OscdWaiter extends LitElement {

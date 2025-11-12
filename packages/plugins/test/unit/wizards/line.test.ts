@@ -12,7 +12,7 @@ import {
   isReplace,
   Create, 
   Replace 
-} from '@openscd/core/foundation/deprecated/editor.js';
+} from '@noraeb/core/foundation/deprecated/editor.js';
 import { createLineWizard, editLineWizard } from '../../../src/wizards/line.js';
 import { WizardCheckbox } from '@openscd/open-scd/src/wizard-checkbox.js';
 

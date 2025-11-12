@@ -1,4 +1,4 @@
-import { Edit, Insert, Remove, Update } from '@openscd/core';
+import { Edit, Insert, Remove, Update } from '@noraeb/core';
 
 
 const element = document.createElement('test-element');

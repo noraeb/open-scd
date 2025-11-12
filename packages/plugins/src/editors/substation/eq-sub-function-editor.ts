@@ -26,9 +26,9 @@ import {
   tags,
 } from '@openscd/open-scd/src/foundation.js';
 
-import { getChildElementsByTagName } from '@openscd/xml';
+import { getChildElementsByTagName } from '@noraeb/xml';
 
-import { newActionEvent } from '@openscd/core/foundation/deprecated/editor.js';
+import { newActionEvent } from '@noraeb/core/foundation/deprecated/editor.js';
 import { emptyWizard, wizards } from '../../wizards/wizard-library.js';
 import { classMap } from 'lit-html/directives/class-map.js';
 import { renderGeneralEquipment } from './foundation.js';

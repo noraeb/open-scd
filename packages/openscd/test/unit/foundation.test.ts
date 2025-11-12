@@ -28,8 +28,8 @@ import {
   isReplace,
   isSimple,
   newActionEvent,
-} from '@openscd/core/foundation/deprecated/editor.js';
-import { newPendingStateEvent } from '@openscd/core/foundation/deprecated/waiter.js';
+} from '@noraeb/core/foundation/deprecated/editor.js';
+import { newPendingStateEvent } from '@noraeb/core/foundation/deprecated/waiter.js';
 
 import { MockAction } from './mock-actions.js';
 

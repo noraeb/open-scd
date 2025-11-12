@@ -12,14 +12,14 @@ import {
   WizardInputElement,
 } from '@openscd/open-scd/src/foundation.js';
 
-import { createElement } from '@openscd/xml';
+import { createElement } from '@noraeb/xml';
 
 import { contentGseOrSmvWizard, updateAddress } from './address.js';
 import {
   ComplexAction,
   SimpleAction,
   EditorAction,
-} from '@openscd/core/foundation/deprecated/editor.js';
+} from '@noraeb/core/foundation/deprecated/editor.js';
 
 export function getMTimeAction(
   type: 'MinTime' | 'MaxTime',

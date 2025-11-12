@@ -14,7 +14,7 @@ import {
   isReplace,
   Create, 
   Replace 
-} from '@openscd/core/foundation/deprecated/editor.js';
+} from '@noraeb/core/foundation/deprecated/editor.js';
 import { wizardContent } from '../../../src/wizards/abstractda.js';
 import { createBDaAction, updateBDaAction } from '../../../src/wizards/bda.js';
 

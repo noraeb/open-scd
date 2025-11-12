@@ -16,9 +16,9 @@ import {
 
 import {
   createElement,
-} from '@openscd/xml';
+} from '@noraeb/xml';
 
-import { EditorAction } from '@openscd/core/foundation/deprecated/editor.js';
+import { EditorAction } from '@noraeb/core/foundation/deprecated/editor.js';
 import { replaceNamingAction } from './foundation/actions.js';
 
 const types: Partial<Record<string, string>> = {

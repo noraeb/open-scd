@@ -12,8 +12,8 @@ import {
   cloneElement,
   createElement,
   getChildElementsByTagName,
-} from '@openscd/xml';
-import { SimpleAction } from '@openscd/core/foundation/deprecated/editor.js';
+} from '@noraeb/xml';
+import { SimpleAction } from '@noraeb/core/foundation/deprecated/editor.js';
 
 function createProcessAction(parent: Element): WizardActor {
   return (inputs: WizardInputElement[]) => {

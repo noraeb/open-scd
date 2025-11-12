@@ -36,12 +36,12 @@ import {
   WizardMenuActor,
 } from '@openscd/open-scd/src/foundation.js';
 
-import { cloneElement, createElement } from '@openscd/xml';
+import { cloneElement, createElement } from '@noraeb/xml';
 
 import {
   ComplexAction,
   EditorAction,
-} from '@openscd/core/foundation/deprecated/editor.js';
+} from '@noraeb/core/foundation/deprecated/editor.js';
 import { getTypeAttribute } from '../foundation/foundation.js';
 import {
   createRedundancyGroupWizard,

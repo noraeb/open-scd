@@ -16,14 +16,14 @@ import {
 import {
   cloneElement,
   createElement,
-} from '@openscd/xml';
+} from '@noraeb/xml';
 
 import {
   ComplexAction,
   EditorAction,
   newActionEvent,
   SimpleAction
-} from '@openscd/core/foundation/deprecated/editor.js';
+} from '@noraeb/core/foundation/deprecated/editor.js';
 import { SingleSelectedEvent } from '@material/mwc-list/mwc-list-foundation';
 import { createLogicLinkWizard, editLogicLinkWizard } from './logiclink.js';
 import {

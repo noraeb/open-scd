@@ -24,14 +24,14 @@ import {
   WizardMenuActor,
 } from '@openscd/open-scd/src/foundation.js';
 
-import { cloneElement, createElement } from '@openscd/xml';
+import { cloneElement, createElement } from '@noraeb/xml';
 
 import {
   Create,
   EditorAction,
   newActionEvent,
   Replace,
-} from '@openscd/core/foundation/deprecated/editor.js';
+} from '@noraeb/core/foundation/deprecated/editor.js';
 import { createBDAWizard, editBDAWizard } from '../../wizards/bda.js';
 import {
   addReferencedDataTypes,

@@ -12,9 +12,9 @@ import {
   cloneElement,
   createElement,
   getChildElementsByTagName
-} from '@openscd/xml';
+} from '@noraeb/xml';
 
-import { SimpleAction } from '@openscd/core/foundation/deprecated/editor.js';
+import { SimpleAction } from '@noraeb/core/foundation/deprecated/editor.js';
 
 interface ContentOptions {
   name: string | null;

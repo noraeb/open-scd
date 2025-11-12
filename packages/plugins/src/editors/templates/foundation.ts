@@ -3,7 +3,7 @@ import { css } from 'lit-element';
 import '@material/mwc-list/mwc-list-item';
 
 import { isPublic } from '@openscd/open-scd/src/foundation.js';
-import { Create } from '@openscd/core/foundation/deprecated/editor';
+import { Create } from '@noraeb/core/foundation/deprecated/editor';
 
 export interface UpdateOptions {
   identity: string | null;

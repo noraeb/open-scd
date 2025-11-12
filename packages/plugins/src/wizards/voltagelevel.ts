@@ -1,7 +1,7 @@
 import { html, TemplateResult } from 'lit-html';
 import { get } from 'lit-translate';
 
-import { cloneElement, createElement } from '@openscd/xml';
+import { cloneElement, createElement } from '@noraeb/xml';
 
 import '@openscd/open-scd/src/wizard-textfield.js';
 import {
@@ -16,7 +16,7 @@ import {
   ComplexAction,
   EditorAction,
   SimpleAction,
-} from '@openscd/core/foundation/deprecated/editor';
+} from '@noraeb/core/foundation/deprecated/editor';
 
 import { updateReferences } from './foundation/references.js';
 

@@ -7,7 +7,7 @@ import {
   newActionEvent,
   Update,
   createUpdateAction
-} from '@openscd/core/foundation/deprecated/editor.js';
+} from '@noraeb/core/foundation/deprecated/editor.js';
 
 describe('Editing-Logging integration', () => {
   let elm: MockEditorLogger;

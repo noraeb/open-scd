@@ -12,7 +12,7 @@ import {
   ComplexAction,
   Replace,
   isSimple
-} from '@openscd/core/foundation/deprecated/editor.js';
+} from '@noraeb/core/foundation/deprecated/editor.js';
 import { dOTypeWizard } from '../../../../src/editors/templates/dotype-wizards.js';
 
 describe('wizards for DOType element', () => {

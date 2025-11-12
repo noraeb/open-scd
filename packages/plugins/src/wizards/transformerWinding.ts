@@ -5,7 +5,7 @@ import {
   cloneElement,
   createElement,
   getChildElementsByTagName,
-} from '@openscd/xml';
+} from '@noraeb/xml';
 
 import {
   getValue,
@@ -13,7 +13,7 @@ import {
   WizardActor,
   WizardInputElement,
 } from '@openscd/open-scd/src/foundation.js';
-import { SimpleAction } from '@openscd/core/foundation/deprecated/editor';
+import { SimpleAction } from '@noraeb/core/foundation/deprecated/editor';
 
 function createTransformerWindingAction(parent: Element): WizardActor {
   return (inputs: WizardInputElement[]) => {

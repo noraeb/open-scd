@@ -13,8 +13,8 @@ import { get, translate } from 'lit-translate';
 
 import { IconButtonToggle } from '@material/mwc-icon-button-toggle';
 
-import { newEditEventV2 } from '@openscd/core';
-import { createElement } from '@openscd/xml';
+import { newEditEventV2 } from '@noraeb/core';
+import { createElement } from '@noraeb/xml';
 import { logicalDeviceIcon } from '@openscd/open-scd/src/icons/ied-icons.js';
 import {
   getDescriptionAttribute,
@@ -23,7 +23,7 @@ import {
   getLdNameAttribute,
   newWizardEvent,
 } from '@openscd/open-scd/src/foundation.js';
-import { newActionEvent } from '@openscd/core/foundation/deprecated/editor.js';
+import { newActionEvent } from '@noraeb/core/foundation/deprecated/editor.js';
 
 import { wizards } from '../../wizards/wizard-library.js';
 import { Container } from './foundation.js';

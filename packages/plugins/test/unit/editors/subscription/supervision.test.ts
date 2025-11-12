@@ -5,7 +5,7 @@ import {
   removeSubscriptionSupervision,
 } from '../../../../src/editors/subscription/foundation.js';
 
-import { Create, Delete } from '@openscd/core/foundation/deprecated/editor.js';
+import { Create, Delete } from '@noraeb/core/foundation/deprecated/editor.js';
 
 describe('supervision', () => {
   let doc: XMLDocument;

@@ -19,13 +19,13 @@ import { ListItemBase } from '@material/mwc-list/mwc-list-item-base';
 import '@openscd/open-scd/src/filtered-list.js';
 import { find, identity, isPublic } from '@openscd/open-scd/src/foundation.js';
 
-import { createElement } from '@openscd/xml';
+import { createElement } from '@noraeb/xml';
 
 import {
   SimpleAction,
   newActionEvent,
-} from '@openscd/core/foundation/deprecated/editor.js';
-import { newLogEvent } from '@openscd/core/foundation/deprecated/history';
+} from '@noraeb/core/foundation/deprecated/editor.js';
+import { newLogEvent } from '@noraeb/core/foundation/deprecated/history';
 
 function uniqueTemplateIedName(doc: XMLDocument, ied: Element): string {
   const [manufacturer, type] = ['manufacturer', 'type'].map(attr =>

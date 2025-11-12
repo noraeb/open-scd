@@ -33,9 +33,9 @@ import {
 
 import {
   getChildElementsByTagName,
-} from '@openscd/xml';
+} from '@noraeb/xml';
 
-import { newActionEvent } from '@openscd/core/foundation/deprecated/editor.js';
+import { newActionEvent } from '@noraeb/core/foundation/deprecated/editor.js';
 import { emptyWizard, wizards } from '../../wizards/wizard-library.js';
 
 function childTags(element: Element | null | undefined): SCLTag[] {

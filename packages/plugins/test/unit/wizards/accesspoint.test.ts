@@ -3,7 +3,7 @@ import { expect, fixture, html } from '@open-wc/testing';
 import {
   ComplexAction,
   isSimple,
-} from '@openscd/core/foundation/deprecated/editor.js';
+} from '@noraeb/core/foundation/deprecated/editor.js';
 import '@openscd/open-scd/src/addons/Wizards.js';
 import { OscdWizards } from '@openscd/open-scd/src/addons/Wizards.js';
 import { WizardInputElement } from '@openscd/open-scd/src/foundation.js';

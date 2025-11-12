@@ -4,7 +4,7 @@ import { SinonSpy, spy } from 'sinon';
 import '../../../../src/editors/substation/powertransformer-editor.js';
 
 import { PowerTransformerEditor } from '../../../../src/editors/substation/powertransformer-editor.js';
-import { isDelete } from '@openscd/core/foundation/deprecated/editor.js';
+import { isDelete } from '@noraeb/core/foundation/deprecated/editor.js';
 
 describe('powertransformer-editor', () => {
   let element: PowerTransformerEditor;

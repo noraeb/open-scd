@@ -4,13 +4,13 @@ import {
   WizardInputElement,
 } from '@openscd/open-scd/src/foundation.js';
 
-import { cloneElement } from '@openscd/xml';
+import { cloneElement } from '@noraeb/xml';
 
 import {
   ComplexAction,
   EditorAction,
   createUpdateAction,
-} from '@openscd/core/foundation/deprecated/editor';
+} from '@noraeb/core/foundation/deprecated/editor';
 import { get } from 'lit-translate';
 import { updateReferences } from './references.js';
 

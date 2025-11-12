@@ -1,7 +1,7 @@
 import { html, TemplateResult } from 'lit-element';
 import { get } from 'lit-translate';
 
-import { cloneElement, createElement } from '@openscd/xml';
+import { cloneElement, createElement } from '@noraeb/xml';
 
 import '@openscd/open-scd/src/wizard-textfield.js';
 import {
@@ -12,7 +12,7 @@ import {
   WizardActor,
   WizardInputElement,
 } from '@openscd/open-scd/src/foundation.js';
-import { EditorAction } from '@openscd/core/foundation/deprecated/editor';
+import { EditorAction } from '@noraeb/core/foundation/deprecated/editor';
 
 /** Initial attribute values suggested for `SubNetwork` creation */
 const initial = {

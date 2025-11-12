@@ -12,7 +12,7 @@ import {
   ComplexAction,
   Replace,
   isSimple
-} from '@openscd/core/foundation/deprecated/editor.js';
+} from '@noraeb/core/foundation/deprecated/editor.js';
 import { eNumTypeEditWizard } from '../../../../src/editors/templates/enumtype-wizard.js';
 
 describe('wizards for EnumType element', () => {

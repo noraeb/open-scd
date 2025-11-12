@@ -29,14 +29,14 @@ import {
   cloneElement,
   createElement,
   getUniqueElementName,
-} from '@openscd/xml';
+} from '@noraeb/xml';
 
 import {
   EditorAction,
   Delete,
   ComplexAction,
   newActionEvent,
-} from '@openscd/core/foundation/deprecated/editor.js';
+} from '@noraeb/core/foundation/deprecated/editor.js';
 import { securityEnabledEnum, smpModEnum } from './foundation/enums.js';
 import { maxLength, patterns } from './foundation/limits.js';
 import { editSMvWizard } from './smv.js';

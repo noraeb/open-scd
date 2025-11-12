@@ -7,9 +7,9 @@ import {
   newWizardEvent,
 } from '@openscd/open-scd/src/foundation.js';
 
-import { createElement } from '@openscd/xml';
+import { createElement } from '@noraeb/xml';
 
-import { newActionEvent } from '@openscd/core/foundation/deprecated/editor.js';
+import { newActionEvent } from '@noraeb/core/foundation/deprecated/editor.js';
 import { createSubNetworkWizard } from './wizards/subnetwork.js';
 import { Base104Container } from './base-container.js';
 import { getTypeAttribute } from './foundation/foundation.js';

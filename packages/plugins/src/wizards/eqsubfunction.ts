@@ -11,9 +11,9 @@ import {
   cloneElement,
   createElement,
   getChildElementsByTagName,
-} from '@openscd/xml';
+} from '@noraeb/xml';
 
-import { SimpleAction } from '@openscd/core/foundation/deprecated/editor.js';
+import { SimpleAction } from '@noraeb/core/foundation/deprecated/editor.js';
 import { contentFunctionWizard } from './function.js';
 
 function updateEqSubFunctionAction(element: Element): WizardActor {

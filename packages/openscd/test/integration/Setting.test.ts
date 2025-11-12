@@ -1,11 +1,11 @@
 import { expect, fixture, html } from '@open-wc/testing';
 
-import { newLoadNsdocEvent } from '@openscd/core/foundation/deprecated/settings.js';
+import { newLoadNsdocEvent } from '@noraeb/core/foundation/deprecated/settings.js';
 import '../../src/addons/History.js';
 import '../../src/addons/Settings.js';
 import { OscdHistory } from '../../src/addons/History.js';
 import { OscdSettings } from '../../src/addons/Settings.js';
-import { XMLEditor } from '@openscd/core';
+import { XMLEditor } from '@noraeb/core';
 
 describe('Oscd-Settings', () => {
   let logger: OscdHistory;

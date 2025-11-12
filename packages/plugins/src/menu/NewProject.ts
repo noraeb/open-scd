@@ -11,9 +11,9 @@ import {
   Wizard,
   WizardInputElement,
 } from '@openscd/open-scd/src/foundation.js';
-import { newOpenDocEvent } from '@openscd/core/foundation/deprecated/open-event.js';
-import { EditorAction } from '@openscd/core/foundation/deprecated/editor.js';
-import { newLogEvent } from '@openscd/core/foundation/deprecated/history.js';
+import { newOpenDocEvent } from '@noraeb/core/foundation/deprecated/open-event.js';
+import { EditorAction } from '@noraeb/core/foundation/deprecated/editor.js';
+import { newLogEvent } from '@noraeb/core/foundation/deprecated/history.js';
 import {
   newEmptySCD,
   SupportedVersion,

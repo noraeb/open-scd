@@ -28,14 +28,14 @@ import {
   cloneElement,
   createElement,
   getChildElementsByTagName,
-} from '@openscd/xml';
+} from '@noraeb/xml';
 
 import { patterns } from './foundation/limits.js';
 import {
   Create,
   EditorAction,
-} from '@openscd/core/foundation/deprecated/editor.js';
-import { newLogEvent } from '@openscd/core/foundation/deprecated/history.js';
+} from '@noraeb/core/foundation/deprecated/editor.js';
+import { newLogEvent } from '@noraeb/core/foundation/deprecated/history.js';
 
 function createLNodeAction(parent: Element): WizardActor {
   return (

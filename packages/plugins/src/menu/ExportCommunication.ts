@@ -1,8 +1,8 @@
 import { LitElement, property } from 'lit-element';
 import { get } from 'lit-translate';
 
-import { formatXml } from '@openscd/xml';
-import { newLogEvent } from '@openscd/core/foundation/deprecated/history';
+import { formatXml } from '@noraeb/xml';
+import { newLogEvent } from '@noraeb/core/foundation/deprecated/history';
 
 function cloneAttributes(destElement: Element, sourceElement: Element) {
   let attr;
