@@ -32,12 +32,56 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
       - run: npm run build
         if: ${{ steps.release.outputs.release_created }}
-      - run: cd packages/core && npm publish --access public
+      
+      # Publish all packages to NPM
+      - name: Publish @noraeb/core
+        if: ${{ steps.release.outputs.release_created }}
+        run: cd packages/core && npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-        if: ${{ steps.release.outputs.release_created }}
         continue-on-error: true
       
+      - name: Publish @noraeb/xml
+        if: ${{ steps.release.outputs.release_created }}
+        run: cd packages/xml && npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+        continue-on-error: true
+      
+      - name: Publish @noraeb/forms
+        if: ${{ steps.release.outputs.release_created }}
+        run: cd packages/forms && npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+        continue-on-error: true
+      
+      - name: Publish @noraeb/wizards
+        if: ${{ steps.release.outputs.release_created }}
+        run: cd packages/wizards && npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+        continue-on-error: true
+      
+      - name: Publish @noraeb/addons
+        if: ${{ steps.release.outputs.release_created }}
+        run: cd packages/addons && npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+        continue-on-error: true
+      
+      - name: Publish @noraeb/plugins
+        if: ${{ steps.release.outputs.release_created }}
+        run: cd packages/plugins && npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+        continue-on-error: true
+      
+      - name: Publish @noraeb/open-scd
+        if: ${{ steps.release.outputs.release_created }}
+        run: cd packages/openscd && npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+        continue-on-error: true
         
       - name: Create and Zip Build Assets
         if: ${{ steps.release.outputs.release_created }}
