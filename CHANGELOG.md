@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.36.3](https://github.com/noraeb/open-scd/compare/v0.36.2...v0.36.3) (2025-11-13)
+
+
+### Bug Fixes
+
+* publish plugins ([bfc1d20](https://github.com/noraeb/open-scd/commit/bfc1d207040054ab02579a8d066902bdbeba031a))
+* update implicit dependencies in project.json ([377390e](https://github.com/noraeb/open-scd/commit/377390e555a35d95c11b27a679ebb7f243fa127b))
+
 ## [0.36.2](https://github.com/noraeb/open-scd/compare/v0.36.1...v0.36.2) (2025-11-12)
 
 
