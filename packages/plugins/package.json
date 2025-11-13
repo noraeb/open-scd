@@ -1,5 +1,5 @@
 {
-  "name": "@openscd/plugins",
+  "name": "@noraeb/plugins",
   "version": "0.0.1",
   "repository": "https://github.com/openscd/open-scd.git",
   "directory": "packages/plugins",
@@ -15,7 +15,10 @@
   "author": "Open-SCD",
   "license": "Apache-2.0",
   "type": "module",
-  "private": true,
+  "files": [
+    "./dist/**",
+    "./doc/**"
+  ],
   "dependencies": {
     "@material/mwc-dialog": "0.22.1",
     "@material/mwc-fab": "0.22.1",

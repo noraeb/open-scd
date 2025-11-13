@@ -20,7 +20,9 @@
       "@openscd/addons": ["../addons/src"],
       "@openscd/addons/*": ["../addons/*"],
       "@openscd/open-scd": ["../openscd/src/open-scd.ts"],
-      "@openscd/open-scd/*": ["../openscd/*"]
+      "@openscd/open-scd/*": ["../openscd/*"],
+      "@openscd/plugins": ["../plugins/src"],
+      "@openscd/plugins/*": ["../plugins/*"]
     }
   },
   "include": ["**/*.ts"]

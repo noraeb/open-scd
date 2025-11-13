@@ -22,7 +22,7 @@
   "dependencies": {
     "@openscd/addons": "npm:@noraeb/addons@*",
     "@openscd/open-scd": "npm:@noraeb/open-scd@*",
-    "@openscd/plugins": "*"
+    "@openscd/plugins": "npm:@noraeb/plugins@*"
   },
   "scripts": {
     "clean": "rimraf build",

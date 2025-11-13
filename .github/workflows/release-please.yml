@@ -61,6 +61,12 @@ jobs:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
         if: ${{ steps.release.outputs.release_created }}
         continue-on-error: true
+      - name: Publish plugins to npm
+        run: cd packages/plugins && npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+        if: ${{ steps.release.outputs.release_created }}
+        continue-on-error: true
       - name: Publish open-scd to npm
         run: cd packages/openscd && npm publish --access public
         env:
